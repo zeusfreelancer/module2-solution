@@ -1,0 +1,131 @@
+
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+}
+#menu{
+    margin-left: 30px;
+    float: left;
+}
+#box{
+    background-color: #808080;
+    padding:10px;
+    border: 5px solid black;
+    width: 370px;
+    height: 300px
+    position: relative;
+    top:20px;
+    float: left;
+    margin-right: 16px;
+    margin-left: px;
+    margin-bottom: 16px;
+}
+#content{
+    text-align: center;
+    font-weight: bold;
+    background-color: #FFCCCC;
+    border: 2px solid black;
+    width: 100px;
+    float: right;
+    margin-top: 0;
+    position: relative;
+    bottom: 12px;
+    left: 12px;
+}
+#text{
+    font-weight: bold;
+    padding-top: 40px;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 30px
+}
+#box2{
+    background-color: #808080;
+    padding:10px;
+    border: 5px solid black;
+    width: 370px;
+    height: 300px
+    position: relative;
+    top:20px;
+    float: left;
+    margin-right: 16px;
+    margin-bottom: 16px;
+
+}
+#content2{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    background-color: #CC3333;
+    border: 2px solid black;
+    width: 100px;
+    float: right;
+    margin-top: 0;
+    position: relative;
+    bottom: 12px;
+    left: 12px;
+}
+#box3{
+    background-color: #808080;
+    padding:10px;
+    border: 5px solid black;
+    width: 370px;
+    height: 300px
+    position: relative;
+    top:20px;
+    float: left;
+    margin-right:
+
+}
+#content3{
+    text-align: center;
+    font-weight: bold;
+    background-color: #FFFF99;
+    border: 2px solid black;
+    width: 100px;
+    float: right;
+    margin-top: 0;
+    position: relative;
+    bottom: 12px;
+    left: 12px;
+}
+
+/************************large divices only*************************/
+@media(min-width: 1200px){
+    #box{
+        width: 30%;
+    }
+    #box2{
+        width: 30%;
+    }
+    #box3{width: 30%;
+
+    }
+}
+
+/************************Midium divices only*************************/
+@media(min-width: 992px) and (max-width: 1199px) {
+    #box{
+        width: 30%;
+    }
+    #box2{
+        width: 30%;
+    }
+    #box3{width: 30%;
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
