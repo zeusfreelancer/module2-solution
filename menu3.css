@@ -1,0 +1,124 @@
+
+*{
+    box-sizing: border-box;
+    margin-left: 6px;
+    margin-right: 0px;
+}
+body{
+    background-color: white;
+}
+h1{
+    text-align: center;
+
+
+}
+
+#box{
+    margin: 5px 5px 5px 5px;
+    position:relative;
+    border: 2px solid black;
+    background-color: gray;
+    font-weight: bold;
+    width: 354px;
+    height: 230px;
+    float: left;
+}
+#box3{
+    margin: 5px 5px 5px 5px;
+    position:relative;
+    border: 2px solid black;
+    background-color: gray;
+    font-weight: bold;
+    width: 354px;
+    height: 230px;
+    float: left;
+}
+
+#menu{
+    position: absolute;
+    right:0px;
+    top:0px;
+    border: px solid black;
+    padding-left: 0px;
+    padding-right: 0px;
+
+}
+.chiken{
+    background-color: #FFCCCC;
+    padding-left: 38px;
+    padding-right: 38px;
+    font-weight: bold;
+}
+.beef{
+    background-color: #FF3333;
+    padding-left: 38px;
+    padding-right: 38px;
+    font-weight: bold;
+
+}
+.sushi{
+    background-color: #CCCC99;
+    padding-left: 38px;
+    padding-right: 38px;
+    font-weight: bold;
+}
+
+p{
+    padding: 25px 15px 10px 15px;
+}
+
+
+
+
+
+
+/************************large divices only*************************/
+@media (min-width: 992px) {
+    }
+    #box{
+    margin: 5px 5px 5px 5px;
+    position:relative;
+    border: 2px solid black;
+    background-color: gray;
+    font-weight: bold;
+    width: 354px;
+    height: 230px;
+    float: left;
+
+    }
+
+    #box3{
+    margin: 5px 5px 5px 5px;
+    position:relative;
+    border: 2px solid black;
+    background-color: gray;
+    font-weight: bold;
+    width: 354px;
+    height: 230px;
+    float: left;
+}
+
+/************************Midium divices only*************************/
+@media (min-width: 768px) and (max-width: 991px) {
+
+#box3{
+    margin: 5px 5px 5px 5px;
+    position: relative;
+    border: 2px solid black;
+    background-color: blue;
+    font-weight: bold;
+    width: 150px;
+    height: 230px;
+    float: left;
+
+}
+
+
+
+
+
+
+
+
+
+
